@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Nest",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "windows": { "runtimeExecutable": "npm.cmd" },
+      "runtimeArgs": [ "run", "start" ],
+      "console": "integratedTerminal",
+      "protocol": "auto",
+      "restart": true,
+      "autoAttachChildProcesses": true
+    }
+  ]
+}
